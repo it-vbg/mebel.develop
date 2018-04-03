@@ -1,0 +1,26 @@
+.preimushestva-block { margin: 10px auto; float: none !important;}
+img.preimushestva-image {position: relative; margin: 15% 28%!important;}
+.tab-content.clearfix {
+    display: block !important;
+    background-color: transparent !important;
+}
+.tab-content h3 { text-transform: uppercase; background-color: #b5e1e0; display: table; margin: 0 auto; padding-bottom: 10px!important; padding-top: 15px; padding-left: 30px; padding-right: 30px; border-radius: 20px; margin-bottom: 20px;}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+.tab-content > .active {
+    display: block;
+}
+.nav-pills > a {background: transparent url("../image/preimushestva-cirkle-bg.png") no-repeat center; height: 150px; line-height: 150px; cursor: pointer; display: table-cell; text-align: center; margin-bottom: 20px;}
+.nav-pills > a:hover {background: transparent url("../image/preimushestva-cirkle-bg-hover.png") no-repeat center;}
+.nav-pills > a > img{vertical-align: middle; }
+.fade.in {
+    opacity: 1;
+}
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
